@@ -1,7 +1,7 @@
 on: [push]
 
 jobs:
-  build-bot:
+  build-push:
     name: Build & Push Image 
     runs-on: ubuntu-latest
     steps:

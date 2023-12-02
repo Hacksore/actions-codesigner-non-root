@@ -11,7 +11,9 @@ if [[ "$INPUT_ENVIRONMENT_NAME" != "PROD" ]]; then
     cp /codesign/conf/code_sign_tool_demo.properties /codesign/conf/code_sign_tool.properties 
 fi
 
-/usr/bin/codesign "$@"
+echo "running command: /usr/bin/codesign $*"
+
+/usr/bin/codesign "$*"
 
 echo "::endgroup::"
 exit 0
