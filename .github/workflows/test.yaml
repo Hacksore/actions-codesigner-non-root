@@ -22,4 +22,4 @@ jobs:
           context: .
           build-args: "--progress=plain"
           tags: |
-            ghcr.io/Hacksore/sslcom-codesign:latest
+            ghcr.io/hacksore/sslcom-codesign:latest
